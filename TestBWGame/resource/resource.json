@@ -1,0 +1,23 @@
+{
+	"groups":[{
+			"keys":"number_fnt",
+			"name":"res"
+		}],
+	"resources":[
+		{
+			"name":"bg_jpg",
+			"type":"image",
+			"url":"assets/bg.jpg"
+		},
+		{
+			"name":"egret_icon_png",
+			"type":"image",
+			"url":"assets/egret_icon.png"
+		},
+		{
+			"name":"number_fnt",
+			"type":"font",
+			"url":"assets/number.fnt"
+		}
+	]
+}
