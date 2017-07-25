@@ -8,15 +8,15 @@ var game_file_list = [
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
 	"polyfill/promise.js",
-	"bin-debug/BoxGroup.js",
-	"bin-debug/BoxItem.js",
-	"bin-debug/GameCanvas.js",
-	"bin-debug/GameData.js",
-	"bin-debug/GameEvent.js",
+	"bin-debug/component/BoxGroup.js",
+	"bin-debug/component/BoxItem.js",
+	"bin-debug/event/GameEvent.js",
 	"bin-debug/LoadingUI.js",
 	"bin-debug/Main.js",
-	"bin-debug/OverCanvas.js",
-	"bin-debug/StartCanvas.js",
+	"bin-debug/module/GameData.js",
+	"bin-debug/view/GameCanvas.js",
+	"bin-debug/view/OverCanvas.js",
+	"bin-debug/view/StartCanvas.js",
 	//----auto game_file_list end----
 ];
 

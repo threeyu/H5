@@ -29,12 +29,17 @@
 
 class Main extends egret.DisplayObjectContainer {
 
+    
+    private loadingView: LoadingUI;
+    private _startCanvas : StartCanvas;
+    private _overCanvas : OverCanvas;
+    private _gameCanvas : GameCanvas;
+    private _timer : egret.Timer;
+
     /**
      * 加载进度界面
      * Process interface loading
      */
-    private loadingView: LoadingUI;
-
     public constructor() {
         super();
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
@@ -109,13 +114,6 @@ class Main extends egret.DisplayObjectContainer {
             this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
         }
     }
-
-
-    private _startCanvas : StartCanvas;
-    private _overCanvas : OverCanvas;
-    private _gameCanvas : GameCanvas;
-    private _timer : egret.Timer;
-
 
     private init() : void
     {

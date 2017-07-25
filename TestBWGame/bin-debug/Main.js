@@ -36,6 +36,10 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Main = (function (_super) {
     __extends(Main, _super);
+    /**
+     * 加载进度界面
+     * Process interface loading
+     */
     function Main() {
         var _this = _super.call(this) || this;
         _this.addEventListener(egret.Event.ADDED_TO_STAGE, _this.onAddToStage, _this);
